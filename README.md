@@ -1,1 +1,1 @@
-# final_project_stepik_AQA_python
+# This repository is for final project on stepik course about automation on Python
