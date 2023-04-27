@@ -10,7 +10,7 @@ class LoginPage(BasePage):
 
     def should_be_login_url(self):
         LOGIN_URL = "http://selenium1py.pythonanywhere.com/en-gb/accounts/login/"
-        assert self.browser.current_url == LOGIN_URL, 'Invalid URL for login page'
+        assert self.url == LOGIN_URL, 'Invalid URL for login page'
 
     def should_be_login_form(self):
         assert self.is_element_present(*LoginPageLocators.FIELD_FOR_LOGIN) \
